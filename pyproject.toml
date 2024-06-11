@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "bim-stats"
+version = "0.1.0"
+description = "BIM Analytics Homework"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+pandas = "^2.2.2"
+jupyterlab = "^4.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
