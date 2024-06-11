@@ -22,7 +22,7 @@ git clone https://github.com/greendwin/bim_stats.git
 
 ## Установка окружения и библиотек
 
-1. Установить `poetry` и `pipx`:
+1. Установить `poetry` и `pipx`
 
 Если `pipx` не находится, то можно попробовать перезапустить `cmd.exe`
 
@@ -35,3 +35,14 @@ python -m pipx ensurepath
 pipx install poetry
 poetry --version
 ```
+
+2. Установить библиотеки
+
+```bash
+cd bim_stats
+poetry install
+```
+
+3. Активировать виртуальное окружение
+
+В `VSCode` внизу справа выбрать `Select Interpreter` и выбрать venv созданный `poetry`.
