@@ -15,6 +15,8 @@ BIM Аналитика
 git clone https://github.com/greendwin/bim_stats.git
 ```
 
+Либо выбрать `Clone reposotory` в `VSCode` и вставить ссылку https://github.com/greendwin/bim_stats.git. (В этом случае п.5 не нужен)
+
 5. Открыть папку `bim_stats` в `vscode`
 
 
