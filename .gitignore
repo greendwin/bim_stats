@@ -162,5 +162,5 @@ cython_debug/
 #.idea/
 
 # Exclude large data files
-data/*.csv
-data/*.zip
+notebooks/data/*.csv
+notebooks/data/*.zip
