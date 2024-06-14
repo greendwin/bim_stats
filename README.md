@@ -63,6 +63,6 @@ poetry install
    ```
 
 3. Запускаем все ячейки в `notebook` и генерируем файлы:
-   * `data/IFC_2000_300_Columns_Beams.csv` 
-   * `data/IFC_2000_300_Columns_Windows.csv` 
-   * ???
+   * `data/IFC_2000_300_Columns_Beams.csv` - выборка всех балок
+   * `data/IFC_2000_300_Columns_Merged.csv` - оригинальный файл с объединенными колонками с похожими именами
+   * `data/IFC_2000_300_Columns_Selection.csv` - выборка из пяти объектов с наибольшим количеством балок
